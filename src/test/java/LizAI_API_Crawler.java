@@ -21,7 +21,7 @@ public class LizAI_API_Crawler {
 
     @DataProvider
     public Object[][] dataProvider() {
-        return ExcelReader.getResponseDataFromXLSX();
+        return ExcelReader.getResponseDataFromXLSX("src/main/resources/Crawler.xlsx");
     }
 
 

@@ -35,9 +35,9 @@ public class ExcelReader {
 //        }
 //    }
 
-   public static Object[][] getResponseDataFromXLSX(){
+   public static Object[][] getResponseDataFromXLSX(String filePath){
+
        //Read the XLSX file
-       String filePath = "src/main/resources/Crawler.xlsx";
        try (FileInputStream fis = new FileInputStream(filePath)) {
            Workbook workbook = WorkbookFactory.create(fis);
            Sheet sheet = workbook.getSheetAt(0);
