@@ -23,8 +23,8 @@ public class LizAI_API_LRP {
         signInRQ.setFromIOS("");
         signInRQ.setAuthorizationCodeZalo("");
         signInRQ.setCodeVerifierZalo("");
-        signInRQ.setEmail("matrixmax22@gmail.com");
-        signInRQ.setPassword("Matrix@Tuan@9525");
+        signInRQ.setEmail("lizai.startup@gmail.com");
+        signInRQ.setPassword("123456");
 
         response = RequestBuilder.given()
                 .post("https://dev-research-platform-apis.lizai.co/api/v1/User/SignIn")
